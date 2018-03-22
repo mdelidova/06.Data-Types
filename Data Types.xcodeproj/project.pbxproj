@@ -13,6 +13,7 @@
 		24660CF72064118200E43C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24660CF62064118200E43C2A /* Assets.xcassets */; };
 		24660CFA2064118200E43C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24660CF82064118200E43C2A /* LaunchScreen.storyboard */; };
 		24660CFD2064118200E43C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24660CFC2064118200E43C2A /* main.m */; };
+		24660D08206419AD00E43C2A /* MDStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 24660D07206419AD00E43C2A /* MDStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		24660CF92064118200E43C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24660CFB2064118200E43C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24660CFC2064118200E43C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24660D06206419AD00E43C2A /* MDStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDStudent.h; sourceTree = "<group>"; };
+		24660D07206419AD00E43C2A /* MDStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		24660CEC2064118200E43C2A /* Data Types */ = {
 			isa = PBXGroup;
 			children = (
+				24660D06206419AD00E43C2A /* MDStudent.h */,
+				24660D07206419AD00E43C2A /* MDStudent.m */,
 				24660CED2064118200E43C2A /* AppDelegate.h */,
 				24660CEE2064118200E43C2A /* AppDelegate.m */,
 				24660CF02064118200E43C2A /* ViewController.h */,
@@ -144,6 +149,7 @@
 			files = (
 				24660CF22064118200E43C2A /* ViewController.m in Sources */,
 				24660CFD2064118200E43C2A /* main.m in Sources */,
+				24660D08206419AD00E43C2A /* MDStudent.m in Sources */,
 				24660CEF2064118200E43C2A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
